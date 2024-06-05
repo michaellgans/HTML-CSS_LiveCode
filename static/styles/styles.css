@@ -1,6 +1,28 @@
 /* This is a comment */
+
+/* General Syntax for a class */
 .class {
     attribute: value;
+}
+
+/* General Syntax for an ID */
+#id {
+    attribute: value;
+}
+
+/* ==== MAKE BIG SECTIONS FOR DIFFERENT STYLING AREAS === */
+
+/* How to import a font from .otf */
+@font-face {
+    font-family: my-font-name; /* Name of font (you define this) */
+    src: url(../fonts/coolvetica\ rg.otf); /* Path to file */
+}
+
+/* How to import a font from Google Fonts (google gives this to you) */
+.roboto-thin {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
 }
 
 
