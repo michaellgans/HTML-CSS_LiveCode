@@ -1,0 +1,23 @@
+/* This is a comment */
+.class {
+    attribute: value;
+}
+
+
+.bold-red-text {
+    color: red;
+    font-weight: 700;
+}
+
+p.bold-blue-text {
+    color: blue;
+    font-weight: 700;
+}
+
+.blue-text {
+    color: blue;
+}
+
+.weight-400 {
+    font-weight: 400;
+}
