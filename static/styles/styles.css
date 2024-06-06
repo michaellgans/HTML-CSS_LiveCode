@@ -25,21 +25,77 @@
     font-style: normal;
 }
 
+/* ========= Examples of CSS Selectors ========= */
 
-.bold-red-text {
+/* Tags - All <p> will have red text */
+p {
     color: red;
-    font-weight: 700;
 }
 
-p.bold-blue-text {
-    color: blue;
-    font-weight: 700;
+/* All elements with this class... */
+.red-text {
+    color: red;
 }
 
-.blue-text {
-    color: blue;
+/* All elements with this ID... */
+#red-text {
+    color: red;
 }
 
-.weight-400 {
-    font-weight: 400;
+/* All <p> with this class... */
+p.red-text {
+    color: red;
+}
+
+/* All elements with with these two classes... */
+.blue-text.red-text {
+    color: red;
+}
+
+/* Everything will... */
+* {
+    color: red;
+}
+
+/* All of these wills... */
+class, class, class {
+    color: red;
+}
+
+/* All <p> inside <div>... */
+p div {
+    color: red;
+}
+
+/* All <p> that are children
+   of <div>... */
+div > p {
+    color: red;
+}
+
+/* All <p> that are siblings
+   with <div>... */
+   div + p {
+    color: red;
+}
+
+/* All <p> that are the next sibling
+   of <div>... */
+   div ~ p {
+    color: red;
+}
+
+/* When user hovers over <a>... */
+   a:hover {
+    color: red;
+}
+
+/* When user clicks on <a>... */
+a:active {
+    color: red;
+}
+
+/* All forms with input="name"... */
+form[input="name"] {
+    color: red;
 }
